@@ -8,7 +8,6 @@
     }
 
     .cabecalho {
-
         background-color: #424e61;
         color: white;
         display: flex;
@@ -18,14 +17,32 @@
     }
 
     .cabecalho-imagem {
-
-       width: 20%;
-
+        width: 15%;
     }
     .cabecalho-lista-item{
-
         display: inline-block;
         margin: 0 16px;
-        font-size: 24px;
-        
+        font-size: 20px;
+    }
+    
+    .escola-imagem {
+
+        width: 25%;
+    }
+
+    .escola{
+        background-image: linear-gradient(#424e61,#4EBFE9);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 0;
+    }
+    
+    .escola-div-conteudo{
+        width: 35%;
+    }
+
+    .escola-titulo{
+        padding: 24px 0;
     }
