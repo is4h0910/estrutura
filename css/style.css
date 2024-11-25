@@ -17,6 +17,7 @@
 .cabecalho-imagem {
     width: 15%;
 }
+
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
@@ -39,8 +40,32 @@
 
 .escola-div-conteudo{
     width: 35%;
+    margin: 0 16px;
+    font-size: 16px
 }
 
 .escola-titulo{
     padding: 24px 0;
+}
+.estudante{
+padding: 24px;
+}
+.escola-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+.estudante-todos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.escola-div{
+    text-align: center;
+    padding: 16px 0;
+}
+.estudante-imagem {
+    width: 129px;
+}
+.estudante-nome{
+    width: 24px;
+    padding: 4px 8px;
 }
